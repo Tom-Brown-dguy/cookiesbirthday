@@ -1,0 +1,141 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navigation Bar Styles */
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar .Nlogo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.navbar .Nlogo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.topnav {
+    background-color: #333;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.topnav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+    margin: 0 0.5em;
+}
+
+.topnav a.active {
+    background-color: #555;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+/* Center Content Styles */
+
+.center {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.words {
+    padding: 1em;
+}
+
+.words h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.words p {
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+/* Image Styles */
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+/* Responsive Image Styles */
+
+@media only screen and (max-width: 768px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Vertical Navigation Styles */
+
+.verticalnav {
+    background-color: #333;
+    width: 400px;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.verticalnav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-size: 20px;
+}
+
+/* Responsive Vertical Navigation Styles */
+
+@media only screen and (max-width: px) {
+    .verticalnav {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .verticalnav {
+        width: 200px;
+    }
+}
